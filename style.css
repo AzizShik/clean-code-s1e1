@@ -84,7 +84,7 @@ button {
   text-transform: uppercase;
 }
 
-.list__item-input {
+.input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -98,7 +98,7 @@ button {
   box-sizing: border-box;
 }
 
-.list__item-input:focus {
+.input:focus {
   color: #333;
 }
 
@@ -131,6 +131,10 @@ button {
 
 .input-checkbox {
   margin: 0 10px;
+}
+
+.delete {
+  height: 32px;
 }
 
 .delete__img {
