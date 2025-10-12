@@ -18,8 +18,8 @@
 }
 
 @media (max-width:768px) {
-.header { text-align: center;
-}
+  .header { text-align: center;
+  }
 }
 .main {
   display: block;
@@ -115,7 +115,7 @@
   font-size: 18px;
   width: 226px;
 }
-.list__item >    .input-checkbox {
+.list__item > .input-checkbox {
   width: 226px
 }
 .button.delete .delete-icon {
