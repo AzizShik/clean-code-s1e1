@@ -38,7 +38,7 @@ var createNewTaskElement=function(taskString){
     editInput.classList.add("list__input-text", "input-text");
     editButton.classList.add("button", "button--edit");
     deleteButton.classList.add("button", "button--delete");
-    deleteButtonImg.classList.add("delete-icon");
+    deleteButtonImg.classList.add("button__delete-icon");
     deleteButtonImg.alt = "Delete icon";
 
     label.innerText=taskString;

@@ -120,13 +120,13 @@
   font-size: 18px;
 }
 
-.delete-icon {
+.button__delete-icon {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete-icon:hover {
+.button--delete:hover .button__delete-icon {
   transform: rotateZ(0);
 }
 
