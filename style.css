@@ -37,10 +37,6 @@
   padding: 0;
 }
 
-.list__item {
-  list-style: none;
-}
-
 .button {
   background: none;
   border: 0px;
@@ -103,6 +99,7 @@
 
 /* Task list */
 .list__item {
+  list-style: none;
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -138,7 +135,7 @@
 }
 
 /* Completed */
-.completed__label {
+.label--completed {
   text-decoration: line-through;
   color: #888;
 }
